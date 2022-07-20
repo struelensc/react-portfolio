@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#about me"
             onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "pink" : "none"}
+            className={currentPage === "About" ? "orange" : "none"}
           >
             about me
           </a>
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
-            className={currentPage === "Portfolio" ? "pink" : "none"}
+            className={currentPage === "Portfolio" ? "orange" : "none"}
           >
             portfolio
           </a>
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
-            className={currentPage === "Contact" ? "pink" : "none"}
+            className={currentPage === "Contact" ? "orange" : "none"}
           >
             contact
           </a>
