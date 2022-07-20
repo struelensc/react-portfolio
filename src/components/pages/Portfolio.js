@@ -35,13 +35,13 @@ function Work() {
   ];
 
   return (
-    <section class="p-5" id="works">
-      <h2 class="py-3">What I've been working on</h2>
+    <section className="p-5" id="works">
+      <h2 className="py-3">What I've been working on</h2>
 
-      <div class="row d-flex flex-row-reverse">
-        <div class="col-lg-4 d-flex justify-content-center align-items-center">
-          <div class="container px-3">
-            <h3 class="d-block">
+      <div className="row d-flex flex-row-reverse">
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div className="container px-3">
+            <h3 className="d-block">
               Ben's Diner
               <span>
                 <a
@@ -53,7 +53,7 @@ function Work() {
               </span>
             </h3>
 
-            <p class="d-block">
+            <p className="d-block">
               Created a full stack web page application that allows restaurant
               customers to view a digital menu, and order food without a human
               server interface. Menu items are displayed and added to a shopping
@@ -64,10 +64,10 @@ function Work() {
           </div>
         </div>
 
-        <figure class="col-lg-8 highlighted-project">
+        <figure className="col-lg-8 highlighted-project">
           <a href="https://github.com/wonjong2/Bens_Diner" target="_blank">
             <img
-              class="img"
+              className="img"
               src={bens_diner}
               alt="Screenshot of Ben's Diner website"
             />
@@ -76,9 +76,9 @@ function Work() {
       </div>
 
       <div>
-        <h3 class="pt-5 px-5">Other projects</h3>
+        <h3 className="pt-5 px-5">Other projects</h3>
 
-        <div class="row">
+        <div className="row">
           {projectInfo.map((data, i) => (
             <Project data={data} i={i}></Project>
           ))}

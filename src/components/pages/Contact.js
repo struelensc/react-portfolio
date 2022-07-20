@@ -1,22 +1,115 @@
-import React from 'react';
+import React, { useState } from "react";
+import { validateEmail } from "./form_assets/helpers";
+import "../../styles/form.css";
 
-export default function Contact() {
+function Form() {
+  const [inputName, setInputName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "inputName") {
+      setInputName(inputValue);
+    } else if (inputType === "message") {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage("Email is invalid.");
+      return;
+    }
+    if (!inputName) {
+      setErrorMessage("Please include your name.");
+      return;
+    }
+    if (!message) {
+      setErrorMessage("Please include a message.");
+      return;
+    }
+
+    setInputName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <form className="col-lg-6 offset-lg-3 form-group">
+        <div className="py-2">
+          <label className="pink" for="nameInput">
+            Name
+          </label>
+          <input
+            id="nameInput"
+            className="form-control form-control-lg py-3"
+            value={inputName}
+            name="inputName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+          />
+        </div>
+
+        <div className="py-2">
+          <label className="pink" for="emailInput">
+            Email
+          </label>
+          <input
+            id="emailInput"
+            type="email"
+            className="form-control form-control-lg"
+            placeholder="name@example.com"
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+          />
+        </div>
+
+        <div className="py-2">
+          <label className="pink" for="messageInput">
+            Message
+          </label>
+          <textarea
+            id="messageInput"
+            className="form-control form-control-lg"
+            rows="3"
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="message"
+          ></textarea>
+        </div>
+
+        <div className="py-2">
+          <button
+            className="button-extended"
+            type="button"
+            onClick={handleFormSubmit}
+          >
+            Submit
+          </button>
+        </div>
+
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </form>
     </div>
   );
 }
+
+export default Form;

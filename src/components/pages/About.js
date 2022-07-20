@@ -4,9 +4,9 @@ import "../../styles/about.css";
 
 export default function About() {
   return (
-    <section class="row py-5" id="about">
-      <div class="row d-flex align-items-center">
-        <div class="col-sm-8 px-5" id="aboutContent">
+    <section className="row py-5" id="about">
+      <div className="row d-flex align-items-center">
+        <div className="col-sm-8 px-5" id="aboutContent">
           <h2>Hello!</h2>
 
           <p>
@@ -16,8 +16,8 @@ export default function About() {
           </p>
         </div>
 
-        <div class="col-sm-4 profilePhotoContainer">
-          <img class="profilePhoto" alt="Photo of Courtney" src={photo} />
+        <div className="col-sm-4 profilePhotoContainer">
+          <img className="profilePhoto" alt="Photo of Courtney" src={photo} />
         </div>
       </div>
     </section>
