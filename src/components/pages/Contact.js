@@ -30,11 +30,11 @@ function Form() {
       return;
     }
     if (!inputName) {
-      setErrorMessage("Please include your name.");
+      setErrorMessage("Name is required.");
       return;
     }
     if (!message) {
-      setErrorMessage("Please include a message.");
+      setErrorMessage("A message is required.");
       return;
     }
 
