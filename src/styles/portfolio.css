@@ -1,0 +1,38 @@
+#works h2 {
+  font-size: 56px;
+}
+
+#works h3 {
+  color: var(--lighter);
+  font-size: 30px;
+}
+
+figure {
+  position: relative;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2em;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+  font-weight: 600;
+
+  background-color: var(--dark);
+  border-radius: 1em;
+}
+
+figure a:hover figcaption {
+  background-color: #fec89a;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.github_icon {
+  padding-left: 1rem;
+}
