@@ -1,0 +1,29 @@
+.nav-extended {
+  border-bottom: var(--darkorange) 0.5rem solid;
+}
+
+nav h1 {
+  padding: 4rem 2rem;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 55rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  position: relative;
+  letter-spacing: 0.5rem;
+  font-size: 19px;
+}
+
+nav ul li:hover {
+  text-decoration: none;
+  color: var(--pink);
+}
