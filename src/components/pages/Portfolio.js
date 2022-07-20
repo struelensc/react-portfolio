@@ -7,6 +7,8 @@ import mvc_tech_blog from "../../assets/project-screenshots/mvc_tech_blog.png";
 import orm_backend from "../../assets/project-screenshots/orm_backend.png";
 import starparty from "../../assets/project-screenshots/starparty.png";
 import team_generator from "../../assets/project-screenshots/team_generator.png";
+import pwa_text_editor from "../../assets/project-screenshots/pwa_text_editor.png";
+import express_note_taker from "../../assets/project-screenshots/express_note_taker.png";
 
 function Work() {
   const projectInfo = [
@@ -31,6 +33,18 @@ function Work() {
       name: "Team Profile Generator",
       image: team_generator,
       github: "https://github.com/struelensc/team-profile-generator",
+    },
+    {
+      name: "PWA Text Editor",
+      image: pwa_text_editor,
+      github: "https://github.com/struelensc/pwa-text-editor",
+      deployed: "https://pwa-text-editor-71222.herokuapp.com/",
+    },
+    {
+      name: "Express Note Taker",
+      image: express_note_taker,
+      github: "https://github.com/struelensc/express-note-taker",
+      deployed: "https://express-note-taker-7913.herokuapp.com/",
     },
   ];
 
