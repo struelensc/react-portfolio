@@ -54,3 +54,7 @@ a:hover {
 .pink {
   color: var(--pink);
 }
+
+li {
+  list-style: none;
+}

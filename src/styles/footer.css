@@ -1,0 +1,15 @@
+footer {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: var(--darkorange) 0.5rem solid;
+}
+
+footer div {
+  padding: 2rem;
+}
+
+.contactList img {
+  padding-left: 0.5rem;
+  background-color: var();
+}
