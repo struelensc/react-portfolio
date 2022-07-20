@@ -1,3 +1,7 @@
+.formContainer {
+  min-height: calc(100vh - 136px - 107px - 40px);
+}
+
 .button-extended {
   align-items: center;
   appearance: none;
