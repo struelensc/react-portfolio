@@ -1,0 +1,22 @@
+#about {
+  min-height: calc(100vh - 146px);
+}
+
+#aboutContent h2 {
+  font-size: 70px;
+}
+
+#aboutContent p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.profilePhoto {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2em;
+}
+
+.profilePhotoContainer {
+  max-height: 100%;
+}

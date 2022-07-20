@@ -7,7 +7,7 @@ import "../styles/footer.css";
 
 function Footer() {
   return (
-    <footer className="navbar fixed-bottom">
+    <footer className="d-flex justify-content-center footer-extended">
       <div className="contactList">
         <ul className="list-group list-group-horizontal-sm py-4 flex-wrap">
           <li className="px-4">

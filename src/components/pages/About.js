@@ -1,17 +1,25 @@
-import React from 'react';
+import React from "react";
+import photo from "../../assets/photo.jpg";
+import "../../styles/about.css";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <section class="row py-5" id="about">
+      <div class="row d-flex align-items-center">
+        <div class="col-sm-8 px-5" id="aboutContent">
+          <h2>Hello!</h2>
+
+          <p>
+            I am a physics student taking a full stack web development bootcamp.
+            I thoroughly enjoy problem solving and the balance between
+            creativity and functionality web development offers.
+          </p>
+        </div>
+
+        <div class="col-sm-4 profilePhotoContainer">
+          <img class="profilePhoto" alt="Photo of Courtney" src={photo} />
+        </div>
+      </div>
+    </section>
   );
 }
