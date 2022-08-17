@@ -13,32 +13,14 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       <ul>
         <li>
-          <a
-            href="#about me"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "orange" : "none"}
-          >
-            about me
-          </a>
+          <a href="#about">about me</a>
         </li>
         {/* would like to add in skills section */}
         <li>
-          <a
-            href="#portfolio"
-            onClick={() => handlePageChange("Portfolio")}
-            className={currentPage === "Portfolio" ? "orange" : "none"}
-          >
-            portfolio
-          </a>
+          <a href="#works">works</a>
         </li>
         <li>
-          <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-            className={currentPage === "Contact" ? "orange" : "none"}
-          >
-            contact
-          </a>
+          <a href="#contact">contact</a>
         </li>
         <li>
           <a href={resume} target="_blank">

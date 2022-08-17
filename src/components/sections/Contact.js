@@ -44,7 +44,7 @@ function Form() {
   };
 
   return (
-    <div className="formContainer">
+    <div className="formContainer" id="contact">
       <form className="col-lg-6 offset-lg-3 form-group">
         <div className="py-2">
           <label className="pink" for="nameInput">
