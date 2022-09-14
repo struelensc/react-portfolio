@@ -14,7 +14,7 @@ figure {
 figure img {
   max-width: 100%;
   height: auto;
-  border-radius: 2em;
+  border-radius: 0.2em;
 }
 
 figcaption {
@@ -24,7 +24,7 @@ figcaption {
   font-weight: 600;
 
   background-color: var(--dark);
-  border-radius: 1em;
+  border-radius: 0.2em;
 }
 
 figure a:hover figcaption {
@@ -33,6 +33,7 @@ figure a:hover figcaption {
   transform: scale(1.1);
 }
 
-.github_icon {
-  padding-left: 1rem;
+.github_icon:hover {
+  rotate: 90deg;
+  transition: rotate 1s;
 }

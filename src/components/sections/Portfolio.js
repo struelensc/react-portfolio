@@ -56,13 +56,13 @@ function Work() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div className="container px-3">
             <h3 className="d-block">
-              Ben's Diner
+              <span className="pe-3">Ben's Diner</span>
               <span>
                 <a
                   className="github_icon"
                   href="https://github.com/wonjong2/Bens_Diner"
                 >
-                  <img src={github} alt="Github icon" />
+                  <img src={github} className="github_icon" alt="Github icon" />
                 </a>
               </span>
             </h3>

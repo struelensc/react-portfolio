@@ -7,11 +7,11 @@ function Project({ data, i }) {
       <img src={data.image} alt={"Screenshot of project"} />
       <figcaption className="py-3 px-4 d-flex justify-content-between">
         {data?.deployed ? (
-          <a href={data?.deployed} className="custom-card-text">
+          <a href={data?.deployed} className="custom-card-text pe-3">
             {data.name}
           </a>
         ) : (
-          <p className="m-0">{data.name}</p>
+          <p className="m-0 pe-3">{data.name}</p>
         )}
         <a className="github_icon" href={data.github}>
           <img src={github} alt="Github icon" />
