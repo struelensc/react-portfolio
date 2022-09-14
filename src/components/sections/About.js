@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../../assets/photo.jpg";
 import "../../styles/about.css";
+import ContactList from "./page_components/ContactList";
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
             I thoroughly enjoy problem solving and the balance between
             creativity and functionality web development offers.
           </p>
+          <ContactList />
         </div>
 
         <div className="col-sm-4 profilePhotoContainer">

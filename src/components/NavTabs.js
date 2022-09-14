@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/header.css";
 import resume from "../files/Resume.pdf";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs() {
   return (
-    <nav className="navbar px-5 nav-extended">
+    <nav className="navbar navbar-fixed-top px-5 nav-extended">
       <h1 className="px-5">
         <span className="pink">&lt; </span>
         <span>Courtney S</span>
@@ -15,13 +15,15 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li>
           <a href="#about">about me</a>
         </li>
-        {/* would like to add in skills section */}
+        {/* <li>
+          <a href="#skills">skills</a>
+        </li> */}
         <li>
           <a href="#works">works</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#contact">contact</a>
-        </li>
+        </li> */}
         <li>
           <a href={resume} target="_blank">
             resume

@@ -1,5 +1,5 @@
 import React from "react";
-import github from "../../../assets/Icons/github.png";
+import github from "../../../assets/contact-icons/github.png";
 
 function Project({ data, i }) {
   return (

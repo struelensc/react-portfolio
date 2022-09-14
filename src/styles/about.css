@@ -20,3 +20,7 @@
 .profilePhotoContainer {
   max-height: 100%;
 }
+
+.contactList img {
+  padding-left: 0.5rem;
+}

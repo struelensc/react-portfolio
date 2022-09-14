@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./page_components/Project";
 import "../../styles/portfolio.css";
-import github from "../../assets/Icons/github.png";
+import github from "../../assets/contact-icons/github.png";
 import bens_diner from "../../assets/project-screenshots/bens_diner.png";
 import mvc_tech_blog from "../../assets/project-screenshots/mvc_tech_blog.png";
 import orm_backend from "../../assets/project-screenshots/orm_backend.png";
