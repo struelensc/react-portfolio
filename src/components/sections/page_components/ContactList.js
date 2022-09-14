@@ -14,7 +14,7 @@ function ContactList() {
             href="https://github.com/struelensc"
             target="_blank"
           >
-            Github
+            <span className="d-none d-md-inline">Github</span>
             <img src={github} alt="Github icon" />
           </a>
         </li>
@@ -24,7 +24,7 @@ function ContactList() {
             href="https://www.linkedin.com/in/courtney-struelens/"
             target="_blank"
           >
-            LinkedIn
+            <span className="d-none d-md-inline">LinkedIn</span>
             <img src={linkedin} alt="LinkedIn icon" />
           </a>
         </li>
@@ -34,7 +34,7 @@ function ContactList() {
             href="mailto: courtneystruelens@hotmail.com"
             target="_blank"
           >
-            Email
+            <span className="d-none d-md-inline">Email</span>
             <img src={email} alt="Email icon" />
           </a>
         </li>
@@ -44,7 +44,7 @@ function ContactList() {
             href="./assets/files/Resume 2022.pdf"
             target="_blank"
           >
-            Resume
+            <span className="d-none d-md-inline">Resume</span>
             <img src={resume} alt="Resume icon" />
           </a>
         </li>
