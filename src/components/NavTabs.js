@@ -4,7 +4,7 @@ import resume from "../files/Resume.pdf";
 
 function NavTabs() {
   return (
-    <nav className="navbar navbar-fixed-top px-5 nav-extended">
+    <nav className="navbar navbar-fixed-top px-5 justify-content-center justify-content-lg-between">
       <h1 className="px-5">
         <span className="pink">&lt; </span>
         <span>Courtney S</span>

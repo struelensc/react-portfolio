@@ -20,12 +20,11 @@ body {
   line-height: 1.6;
   background-color: var(--dark);
   font-size: 19px;
+  position: absolute;
 }
 
 main {
   margin: 0 auto;
-  width: 100%;
-  max-width: 1600px;
   min-height: 100vh;
   padding: 0 150px;
 }
@@ -34,33 +33,23 @@ main .fillHeight {
   padding: 0 150px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
   main {
-    padding: 200px 100px;
+    padding: 0px 10px;
   }
 
   main .fillHeight {
-    padding: 0 150px;
+    padding: 0px 10px;
   }
 }
 
 @media (max-width: 768px) {
   main {
-    padding: 150px 50px;
+    padding: 0px 0px;
   }
 
   main .fillHeight {
-    padding: 0 50px;
-  }
-}
-
-@media (max-width: 480px) {
-  main {
-    padding: 125px 25px;
-  }
-
-  main .fillHeight {
-    padding: 0 25px;
+    padding: 0px 0px;
   }
 }
 
