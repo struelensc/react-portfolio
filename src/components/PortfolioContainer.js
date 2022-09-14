@@ -11,7 +11,7 @@ export default function PortfolioContainer() {
       <NavTabs />
       <main>
         <About />
-        {/* <Skills /> */}
+        <Skills />
         <Portfolio />
       </main>
       <Footer />

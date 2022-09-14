@@ -13,13 +13,14 @@ nav ul {
   list-style-type: none;
 }
 
+@media (min-width: 769px) {
+  nav ul {
+    min-width: 55rem;
+  }
+}
+
 nav ul li {
   position: relative;
   letter-spacing: 0.5rem;
   font-size: 19px;
-}
-
-nav ul li:hover {
-  text-decoration: none;
-  color: var(--pink);
 }

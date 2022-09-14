@@ -15,9 +15,9 @@ function NavTabs() {
         <li>
           <a href="#about">about me</a>
         </li>
-        {/* <li>
+        <li>
           <a href="#skills">skills</a>
-        </li> */}
+        </li>
         <li>
           <a href="#works">works</a>
         </li>

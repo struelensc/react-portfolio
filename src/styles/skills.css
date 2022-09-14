@@ -1,0 +1,32 @@
+#skills {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}
+
+#skills h2 {
+  font-size: 56px;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  font-size: 19px;
+  color: var(--lighter);
+}
+
+#skills li:hover {
+  color: var(--pink);
+  transition: color 0.5s;
+}
+
+.vectorContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2em;
+}
+
+.vectorContainer {
+  max-height: 100%;
+}

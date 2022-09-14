@@ -15,43 +15,44 @@ export default function Skills() {
         <div class="px-5">
           <ul class="list-group list-group-horizontal flex-wrap">
             <li class="text-center mx-4">
+              <FontAwesomeIcon icon="fa-brands fa-react" size="3x" />
+              <p>react</p>
+            </li>
+            <li class="text-center mx-4">
+              <FontAwesomeIcon icon="fa-brands fa-html5" size="3x" />
               <p>html-5</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fab fa-css3-alt fa-3x"></i>
+              <FontAwesomeIcon icon="fa-brands fa-css3-alt" size="3x" />
               <p>css</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fa-brands fa-bootstrap fa-3x"></i>
+              <FontAwesomeIcon icon="fa-brands fa-bootstrap" size="3x" />
               <p>bootstrap</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fab fab fa-js fa-3x"></i>
-              <p>Javascript</p>
+              <FontAwesomeIcon icon="fa-brands fa-js" size="3x" />
+              <p>javascript</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fab fab fa-node fa-3x"></i>
-              <p>nodejs</p>
+              <FontAwesomeIcon icon="fa-brands fa-node-js" size="3x" />
+              <p>node.js</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fab fab fa-npm fa-3x"></i>
-              <p>npm</p>
-            </li>
-            <li class="text-center mx-4">
-              <i class="fab fas fa-database fa-3x"></i>
+              <FontAwesomeIcon icon="fa-solid fa-database" size="3x" />
               <p>sql-database</p>
             </li>
             <li class="text-center mx-4">
-              <i class="fa-brands fa-git fa-3x"></i>
+              <FontAwesomeIcon icon="fa-brands fa-git" size="3x" />
               <p>git</p>
             </li>
           </ul>
         </div>
       </div>
 
-      {/* <div class="col-sm-5 vectorContainer">
+      <div class="col-sm-5 vectorContainer">
         <img src={skillsPhoto} alt="female programmer" />
-      </div> */}
+      </div>
     </section>
   );
 }
