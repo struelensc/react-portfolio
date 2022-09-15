@@ -11,9 +11,13 @@ import {
   faNpm,
   faGit,
   faReact,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDatabase,
+  faArrowUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 
 library.add(
   faCss3Alt,
@@ -24,5 +28,7 @@ library.add(
   faNpm,
   faDatabase,
   faGit,
-  faReact
+  faReact,
+  faArrowUpRightFromSquare,
+  faGithub
 );

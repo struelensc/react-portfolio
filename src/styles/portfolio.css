@@ -2,42 +2,56 @@
   scroll-snap-align: start;
 }
 
+.project-content .projectType {
+  color: var(--darkorange);
+  font-size: 15px;
+  letter-spacing: 0.2em;
+}
+
 #works h2 {
   font-size: 56px;
 }
 
-#works h3 {
+#works h4 {
+  color: var(--pink);
+  font-size: 25px;
+  letter-spacing: 0.2em;
+}
+
+.project-content {
+  text-align: right;
+  align-content: center;
+  z-index: 2;
+  margin-left: -25px;
+}
+
+@media (max-width: 766px) {
+  .project-content {
+    margin-left: 0px;
+  }
+}
+
+.project-content li {
+  font-size: 16px;
   color: var(--lighter);
-  font-size: 30px;
 }
 
-figure {
-  position: relative;
+.projectImage {
+  z-index: 1;
 }
 
-figure img {
+.project img {
   max-width: 100%;
   height: auto;
   border-radius: 0.2em;
 }
 
-figcaption {
-  position: absolute;
-  bottom: 2em;
-  left: 2em;
-  font-weight: 600;
-
-  background-color: var(--dark);
-  border-radius: 0.2em;
+.project-description {
+  box-shadow: 0 10px 30px -15px #0c141d;
+  background-color: #121f2b;
 }
 
-figure a:hover figcaption {
-  background-color: #fec89a;
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.1);
-}
-
-.github_icon:hover {
-  rotate: 90deg;
-  transition: rotate 1s;
+.project-content .icon {
+  width: 25px;
+  height: auto;
 }
