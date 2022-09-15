@@ -2,6 +2,10 @@
   scroll-snap-align: start;
 }
 
+.project {
+  margin-bottom: 6rem;
+}
+
 .project-content .projectType {
   color: var(--darkorange);
   font-size: 15px;

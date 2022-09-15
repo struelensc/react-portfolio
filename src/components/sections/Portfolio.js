@@ -75,11 +75,11 @@ function Work() {
 
   return (
     <section className="p-5" id="works">
-      <h2 className="py-3">What I've been working on</h2>
+      <h2 className="py-3">Some things I've worked on</h2>
       <div>
         <div className="row">
           {projectInfo.map((data, i) => (
-            <Project data={data} i={i}></Project>
+            <Project data={data} key={i}></Project>
           ))}
         </div>
       </div>

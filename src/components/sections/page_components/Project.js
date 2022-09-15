@@ -11,7 +11,7 @@ function Project({ data, i }) {
   ));
 
   return (
-    <div id={i} className="project d-flex flex-md-row-reverse flex-column mb-5">
+    <div id={i} className="project d-flex flex-md-row-reverse flex-column">
       <div className="project-content col-md-6 col-12 justify-content-center">
         <p className="projectType pe-4 m-2">{data.type} Project</p>
         {data?.deployed ? (
