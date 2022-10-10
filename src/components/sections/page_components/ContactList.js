@@ -3,6 +3,7 @@ import linkedin from "../../../assets/contact-icons/linkedin.png";
 import email from "../../../assets/contact-icons/email.png";
 import github from "../../../assets/contact-icons/github.png";
 import resume from "../../../assets/contact-icons/resume.png";
+import resumeFile from "../../../files/Resume.pdf";
 
 function ContactList() {
   return (
@@ -45,7 +46,7 @@ function ContactList() {
             target="_blank"
           >
             <span className="d-none d-md-inline">Resume</span>
-            <img src={resume} alt="Resume icon" />
+            <img src={resumeFile} alt="Resume icon" />
           </a>
         </li>
       </ul>
