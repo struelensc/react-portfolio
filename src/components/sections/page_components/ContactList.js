@@ -1,6 +1,6 @@
 import React from "react";
 import linkedin from "../../../assets/contact-icons/linkedin.png";
-import email from "../../../assets/contact-icons/email.png";
+// import email from "../../../assets/contact-icons/email.png";
 import github from "../../../assets/contact-icons/github.png";
 import resume from "../../../assets/contact-icons/resume.png";
 import resumeFile from "../../../files/Resume.pdf";
@@ -29,7 +29,7 @@ function ContactList() {
             <img src={linkedin} alt="LinkedIn icon" />
           </a>
         </li>
-        <li className="px-4 pb-4">
+        {/* <li className="px-4 pb-4">
           <a
             className="icon"
             href="mailto: courtneystruelens@hotmail.com"
@@ -38,7 +38,7 @@ function ContactList() {
             <span className="d-none d-md-inline">Email</span>
             <img src={email} alt="Email icon" />
           </a>
-        </li>
+        </li> */}
         <li className="px-4 pb-4">
           <a className="icon" href={resumeFile} target="_blank">
             <span className="d-none d-md-inline">Resume</span>

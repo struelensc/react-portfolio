@@ -11,11 +11,12 @@ export default function About() {
           <h2>Hello!</h2>
 
           <p>
-            I am a physics student that completed a full stack web development
-            bootcamp. I'm passionate about the work I do and strive to have a
-            career filled with constant opportunities to learn and grow. I enjoy
-            helping people and I believe there is something to learn from
-            everyone and every opportunity.
+            I am a physics student. I hold a certification of completion from
+            University of Washington Coding Boot Camp. I'm passionate about the
+            work I do and strive to have a career filled with constant
+            opportunities to learn and grow. I enjoy helping people and I
+            believe there is something to learn from everyone and every
+            opportunity.
           </p>
           <ContactList />
         </div>
