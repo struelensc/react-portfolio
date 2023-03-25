@@ -13,11 +13,11 @@
 
 #skills li {
   font-size: 19px;
-  color: var(--lighter);
+  color: var(--mainAccent);
 }
 
 #skills li:hover {
-  color: var(--mainAccent);
+  color: var(--secondaryAccent);
   transition: color 0.5s;
 }
 

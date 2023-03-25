@@ -1,11 +1,11 @@
 /* General styling */
 
 :root {
-  --lighter: #fff1e6;
+  --lighter: #eddcd2;
   --dark: #0b0b09;
-  --mainAccent: #cb997e; /*pink*/
-  --secondaryAccent: #a5a58d; /*darkorange*/
-  --tertiaryAccents: #d8e2dc; /*green*/
+  --mainAccent: #0b3954; /*pink*/
+  --secondaryAccent: #718355; /*darkorange*/
+  --tertiaryAccents: #af3f05; /*green*/
 }
 
 html {

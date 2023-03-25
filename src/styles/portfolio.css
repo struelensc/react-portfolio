@@ -7,7 +7,7 @@
 }
 
 .project-content .projectType {
-  color: var(--secondaryAccent);
+  color: var(--tertiaryAccents);
   font-size: 15px;
   letter-spacing: 0.2em;
 }
@@ -37,7 +37,7 @@
 
 .project-content li {
   font-size: 16px;
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 .projectImage {
@@ -52,7 +52,7 @@
 
 .project-description {
   box-shadow: 0 10px 30px -15px #0c141d;
-  background-color: #121f2b;
+  background-color: var(--secondaryAccent);
 }
 
 .project-content .icon {
