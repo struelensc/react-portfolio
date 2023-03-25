@@ -23,7 +23,6 @@ function Work() {
         "Stripe",
       ],
       github: "https://github.com/rkutsel/rental-railroad",
-      deployed: "https://rental-railroad.herokuapp.com/",
       type: "Group",
     },
     {
