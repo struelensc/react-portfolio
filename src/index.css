@@ -87,3 +87,16 @@ a:hover {
 li {
   list-style: none;
 }
+
+.fascinate {
+  font-family: "Fascinate", cursive;
+}
+
+.grandHotel {
+  font-family: "Grand Hotel", cursive;
+  font-size: 1.5em;
+}
+
+.notable {
+  font-family: "Notable", sans-serif;
+}
