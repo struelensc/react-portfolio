@@ -7,7 +7,7 @@
 }
 
 .project-content .projectType {
-  color: var(--darkorange);
+  color: var(--secondaryAccent);
   font-size: 15px;
   letter-spacing: 0.2em;
 }
@@ -17,7 +17,7 @@
 }
 
 #works h4 {
-  color: var(--pink);
+  color: var(--mainAccent);
   font-size: 25px;
   letter-spacing: 0.2em;
 }

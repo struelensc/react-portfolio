@@ -17,7 +17,7 @@
 }
 
 #skills li:hover {
-  color: var(--pink);
+  color: var(--mainAccent);
   transition: color 0.5s;
 }
 

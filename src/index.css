@@ -1,23 +1,23 @@
 /* General styling */
 
 :root {
-  --pink: #fec5bb;
-  --lighter: #fcf6f5;
-  --green: #d8e2dc;
-  --darkorange: #fec89a;
-  --dark: #172a3a;
+  --lighter: #fff1e6;
+  --dark: #0b0b09;
+  --mainAccent: #cb997e; /*pink*/
+  --secondaryAccent: #a5a58d; /*darkorange*/
+  --tertiaryAccents: #d8e2dc; /*green*/
 }
 
 html {
   font-size: 62.5%;
-  color: var(--lighter);
+  color: var(--dark);
   width: 100%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Viga", sans-serif;
   line-height: 1.6;
-  background-color: var(--dark);
+  background-color: var(--lighter);
   font-size: 19px;
   position: absolute;
 }
@@ -54,34 +54,34 @@ main .fillHeight {
 
 h1 {
   letter-spacing: 1rem;
-  color: var(--lighter);
+  color: var(--dark);
   font-size: 70px;
 }
 
 h2 {
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 p {
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 a {
   text-decoration: none;
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 a:hover {
-  color: var(--pink);
+  color: var(--mainAccent);
   transition: color 0.5s;
 }
 
 .pink {
-  color: var(--pink);
+  color: var(--mainAccent);
 }
 
 .orange {
-  color: var(--darkorange);
+  color: var(--secondaryAccent);
 }
 
 li {
