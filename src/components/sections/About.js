@@ -11,8 +11,8 @@ export default function About() {
           <h2>Hello!</h2>
 
           <p>
-            I am a <span className="fascinate">physics student</span>. I hold a
-            certification of completion from University of Washington's{" "}
+            I am a <span className="fascinate">physics student</span> who holds
+            a certification of completion from University of Washington's{" "}
             <span className="notable">Full Stack Web Development</span> boot
             camp. I'm <span className="grandHotel">passionate</span> about the
             work I do and strive to have a career filled with constant
