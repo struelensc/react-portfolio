@@ -52,7 +52,11 @@
 
 .project-description {
   box-shadow: 0 10px 30px -15px #0c141d;
-  background-color: var(--secondaryAccent);
+  background-color: var(--mainAccent);
+}
+
+.project-description p {
+  color: var(--lighter);
 }
 
 .project-content .icon {
