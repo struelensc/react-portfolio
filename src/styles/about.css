@@ -29,9 +29,9 @@
 }
 
 .profilePhoto {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  border-radius: 0.2em;
+  border: solid 1px black;
 }
 
 .profilePhotoContainer {

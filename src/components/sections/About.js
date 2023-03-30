@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section className="row py-5" id="about">
       <div className="d-flex flex-column-reverse flex-sm-row p-0 align-items-center">
-        <div className="aboutContainer col-sm-8 p-3">
+        <div className="aboutContainer col-sm-7 p-3 m-3">
           <div className="d-flex px-3 row mr-3 pb-3">
             <div className="col-11">
               <div className="row my-2 horizontalLine"></div>
@@ -43,7 +43,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="col-sm-4 px-4 pb-5 profilePhotoContainer">
+        <div className="col-sm-5 px-4 profilePhotoContainer">
           <img className="profilePhoto" alt="Photo of Courtney" src={photo} />
         </div>
       </div>

@@ -1,10 +1,10 @@
 /* General styling */
 
 :root {
-  --lighter: #faebde;
+  --lighter: #f9f2ed;
   --dark: #0b0b09;
-  --mainAccent: #0b3954; /*pink*/
-  --secondaryAccent: #b979aa; /*darkorange*/
+  --mainAccent: #003865; /*pink*/
+  --secondaryAccent: #ffb562; /*darkorange*/
   --tertiaryAccents: #af3f05; /*green*/
 }
 
