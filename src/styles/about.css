@@ -2,21 +2,9 @@
   min-height: calc(100vh - 146px);
 }
 
-.aboutContainer {
-  border: solid 1px black;
-}
-
 .aboutContainer .horizontalLine {
   height: 1px;
   background-color: #211f23;
-}
-
-.aboutContainer .xBox {
-  border: solid 1px black;
-}
-
-#aboutContent {
-  border: solid 1px black;
 }
 
 #aboutContent h2 {
@@ -31,7 +19,6 @@
 .profilePhoto {
   max-width: 90%;
   height: auto;
-  border: solid 1px black;
 }
 
 .profilePhotoContainer {

@@ -1,7 +1,7 @@
 /* General styling */
 
 :root {
-  --lighter: #f9f2ed;
+  --lighter: #ffff;
   --dark: #0b0b09;
   --mainAccent: #003865; /*pink*/
   --secondaryAccent: #ffb562; /*darkorange*/
@@ -25,10 +25,13 @@ body {
 main {
   margin: 0 auto;
   min-height: 100vh;
-  padding: 0 150px;
 }
 
 main .fillHeight {
+  padding: 0 150px;
+}
+
+section {
   padding: 0 150px;
 }
 

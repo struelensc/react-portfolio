@@ -1,6 +1,7 @@
 #skills {
   scroll-snap-align: start;
   min-height: 100vh;
+  background-color: var(--mainAccent);
 }
 
 #skills h2 {
