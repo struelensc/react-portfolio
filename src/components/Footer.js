@@ -9,9 +9,9 @@ function Footer() {
       <div className="container pt-5 d-flex flex-column align-items-center justify-content-center">
         <div className="py-4">
           <h1>
-            <span className="tertiaryAccents">&lt; </span>
+            <span className="tertiaryAccent">&lt; </span>
             <span>CS</span>
-            <span className="tertiaryAccents"> /&gt;</span>
+            <span className="tertiaryAccent"> /&gt;</span>
           </h1>
         </div>
         <div className="py-5">

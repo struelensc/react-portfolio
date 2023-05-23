@@ -5,9 +5,9 @@ import resume from "../files/Resume.pdf";
 function Header() {
   return (
     <nav className="navbar navbar-fixed-top px-5 justify-content-center justify-content-lg-between">
-      <h1 className="px-5">
+      <h1 className="px-5 statement-text">
         <span className="mainAccent">&lt; </span>
-        <span>Courtney S</span>
+        <span>COURTNEY S</span>
         <span className="mainAccent"> /&gt;</span>
       </h1>
 

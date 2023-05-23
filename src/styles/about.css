@@ -2,12 +2,17 @@
   background-color: var(--mainAccent);
 }
 
+#aboutContent h2,
+#aboutContent p {
+  color: var(--lighter);
+}
+
 #aboutContent h2 {
-  font-size: 70px;
+  font-size: 4rem;
 }
 
 #aboutContent p {
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 40px;
 }
 

@@ -2,10 +2,10 @@
 
 :root {
   --lighter: #ebebff;
-  --dark: #000000;
+  --dark: #1c211e;
   --mainAccent: #7209b7; /*pink*/
   --secondaryAccent: #f72585; /*darkorange*/
-  --tertiaryAccents: #4cc9f0; /*green*/
+  --tertiaryAccent: #4cc9f0; /*green*/
 }
 
 html {
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  font-family: "Viga", sans-serif;
-  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   background-color: #ffff;
   font-size: 19px;
   position: absolute;
@@ -86,23 +86,14 @@ a:hover {
   color: var(--secondaryAccent);
 }
 
-.tertiaryAccents {
-  color: var(--tertiaryAccents);
+.tertiaryAccent {
+  color: var(--tertiaryAccent);
 }
 
 li {
   list-style: none;
 }
 
-.fascinate {
-  font-family: "Fascinate", cursive;
-}
-
-.grandHotel {
-  font-family: "Grand Hotel", cursive;
-  font-size: 1.5em;
-}
-
-.notable {
-  font-family: "Notable", sans-serif;
+.statement-text {
+  font-family: "Source Code Pro", monospace;
 }
