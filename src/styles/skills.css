@@ -12,10 +12,10 @@
 
 #skills li {
   font-size: 19px;
-  color: var(--mainAccent);
+  color: var(--secondaryAccent);
 }
 
 #skills li:hover {
-  color: var(--secondaryAccent);
+  color: var(--mainAccent);
   transition: color 0.5s;
 }

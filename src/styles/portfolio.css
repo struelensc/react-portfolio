@@ -17,7 +17,7 @@
 }
 
 #works h4 {
-  color: var(--mainAccent);
+  color: var(--secondaryAccent);
   font-size: 25px;
   letter-spacing: 0.2em;
 }

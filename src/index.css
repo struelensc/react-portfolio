@@ -2,10 +2,10 @@
 
 :root {
   --lighter: #ffff;
-  --dark: #0b0b09;
-  --mainAccent: #003865; /*pink*/
-  --secondaryAccent: #ffb562; /*darkorange*/
-  --tertiaryAccents: #af3f05; /*green*/
+  --dark: #000000;
+  --mainAccent: #7209b7; /*pink*/
+  --secondaryAccent: #f72585; /*darkorange*/
+  --tertiaryAccents: #4361ee; /*green*/
 }
 
 html {
@@ -78,11 +78,11 @@ a:hover {
   transition: color 0.5s;
 }
 
-.pink {
+.mainAccent {
   color: var(--mainAccent);
 }
 
-.orange {
+.secondaryAccent {
   color: var(--secondaryAccent);
 }
 
