@@ -56,9 +56,8 @@ section {
 }
 
 h1 {
-  letter-spacing: 1rem;
   color: var(--dark);
-  font-size: 70px;
+  font-size: 4rem;
 }
 
 h2 {

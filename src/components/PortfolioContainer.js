@@ -1,4 +1,5 @@
 import NavTabs from "./NavTabs";
+import Greeting from "./sections/Greeting";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
@@ -9,6 +10,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs />
       <main>
+        <Greeting />
         <About />
         <Skills />
         <Portfolio />

@@ -1,10 +1,5 @@
 #about {
-  min-height: calc(100vh - 146px);
-}
-
-.aboutContainer .horizontalLine {
-  height: 1px;
-  background-color: #211f23;
+  background-color: var(--mainAccent);
 }
 
 #aboutContent h2 {
@@ -16,15 +11,18 @@
   line-height: 40px;
 }
 
-.profilePhoto {
-  max-width: 90%;
-  height: auto;
-}
-
-.profilePhotoContainer {
-  max-height: 100%;
-}
-
 .contactList img {
   padding-left: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  #about {
+    padding: 9rem 4.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 3rem 3rem;
+  }
 }

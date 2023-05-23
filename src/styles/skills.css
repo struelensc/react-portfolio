@@ -1,7 +1,5 @@
 #skills {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  background-color: var(--mainAccent);
+  /* background-color: var(--mainAccent); */
 }
 
 #skills h2 {
@@ -20,14 +18,4 @@
 #skills li:hover {
   color: var(--secondaryAccent);
   transition: color 0.5s;
-}
-
-.vectorContainer img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 2em;
-}
-
-.vectorContainer {
-  max-height: 100%;
 }

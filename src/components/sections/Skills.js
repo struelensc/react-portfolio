@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/skills.css";
-import skillsPhoto from "../../assets/skills-theme-photo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Skills() {
@@ -46,10 +45,6 @@ export default function Skills() {
               </li>
             </ul>
           </div>
-        </div>
-
-        <div className="col-sm-5 vectorContainer">
-          <img src={skillsPhoto} alt="female programmer" />
         </div>
       </div>
     </section>

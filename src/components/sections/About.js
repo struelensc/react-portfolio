@@ -1,5 +1,4 @@
 import React from "react";
-import photo from "../../assets/photo.jpg";
 import "../../styles/about.css";
 import ContactList from "./page_components/ContactList";
 
@@ -28,10 +27,6 @@ export default function About() {
               </p>
               <ContactList />
             </div>
-          </div>
-
-          <div className="col-sm-5 profilePhotoContainer">
-            <img className="profilePhoto" alt="Photo of Courtney" src={photo} />
           </div>
         </div>
       </div>
