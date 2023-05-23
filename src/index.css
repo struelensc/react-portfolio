@@ -1,11 +1,11 @@
 /* General styling */
 
 :root {
-  --lighter: #ffff;
+  --lighter: #ebebff;
   --dark: #000000;
   --mainAccent: #7209b7; /*pink*/
   --secondaryAccent: #f72585; /*darkorange*/
-  --tertiaryAccents: #4361ee; /*green*/
+  --tertiaryAccents: #4cc9f0; /*green*/
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 body {
   font-family: "Viga", sans-serif;
   line-height: 1.6;
-  background-color: var(--lighter);
+  background-color: #ffff;
   font-size: 19px;
   position: absolute;
 }
@@ -84,6 +84,10 @@ a:hover {
 
 .secondaryAccent {
   color: var(--secondaryAccent);
+}
+
+.tertiaryAccents {
+  color: var(--tertiaryAccents);
 }
 
 li {
