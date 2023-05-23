@@ -15,16 +15,16 @@ function Footer() {
           </h1>
         </div>
         <div className="py-5">
-          <h2>
+          <h1 className="one-liner text-center">
             Curiosity: the secret ingredient behind my caffeinated coding
             sessions.
-          </h2>
+          </h1>
         </div>
         <div className="py-5">
           <ContactList />
         </div>
         <div className="py-5">
-          <h3 className="d-flex align-items-center">
+          <h1 className="made-with d-flex align-items-center">
             Made with
             <span>
               <FontAwesomeIcon
@@ -34,7 +34,7 @@ function Footer() {
               />
             </span>
             React
-          </h3>
+          </h1>
         </div>
       </div>
     </footer>

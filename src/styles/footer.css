@@ -4,9 +4,16 @@
 
 .footer-extended,
 footer .contactList a,
-footer h1,
-footer h2 {
+footer h1 {
   color: var(--lighter);
+}
+
+footer .one-liner {
+  font-size: 2rem;
+}
+
+footer .made-with {
+  font-size: 1.8rem;
 }
 
 .contactList img {
