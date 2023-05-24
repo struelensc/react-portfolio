@@ -7,7 +7,7 @@ function Header() {
     <nav className="navbar navbar-fixed-top px-5 justify-content-center justify-content-lg-between">
       <h1 className="px-5 statement-text">
         <span className="mainAccent">&lt; </span>
-        <span>COURTNEY S</span>
+        <span>courtney s</span>
         <span className="mainAccent"> /&gt;</span>
       </h1>
 

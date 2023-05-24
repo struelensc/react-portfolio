@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   background-color: #ffff;
   font-size: 19px;
@@ -95,5 +95,5 @@ li {
 }
 
 .statement-text {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Montserrat", sans-serif;
 }

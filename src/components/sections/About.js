@@ -7,7 +7,7 @@ export default function About() {
       <div className="row p-5 justify-content-center">
         <div className="col-sm-7">
           <div id="aboutContent" className="text-center">
-            <h2 className="pb-3">Hello, I'm Courtney!</h2>
+            <h2 className="pb-3 statement-text">Hello, I'm Courtney!</h2>
             <p className="pt-5">
               I'm a passionate Physics Student turned{" "}
               <span className="tertiaryAccent">Full-Stack Web Developer</span>.

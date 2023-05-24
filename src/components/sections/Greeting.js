@@ -10,7 +10,7 @@ export default function About() {
       <Container className="d-flex flex-column align-items-center">
         <div className="text-center">
           <h1 className="statement-text">
-            Full Stack Web Developer | Physics Student | Lifelong Learner
+            Full Stack Web Developer, Physics Student, Coffee Addict
           </h1>
         </div>
         <div className="profilePhotoContainer">
