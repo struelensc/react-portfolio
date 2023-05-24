@@ -1,5 +1,5 @@
 #works {
-  scroll-snap-align: start;
+  padding: 10rem 20rem;
 }
 
 .project {
@@ -13,7 +13,7 @@
 }
 
 #works h2 {
-  font-size: 56px;
+  font-size: 4rem;
 }
 
 #works h4 {
@@ -32,6 +32,10 @@
 @media (max-width: 766px) {
   .project-content {
     margin-left: 0px;
+  }
+
+  #works {
+    padding: 2rem;
   }
 }
 
