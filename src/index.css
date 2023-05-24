@@ -39,26 +39,6 @@ section {
   padding: 0 150px;
 }
 
-@media (max-width: 1024px) {
-  main {
-    padding: 0px 10px;
-  }
-
-  main .fillHeight {
-    padding: 0px 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    padding: 0px 0px;
-  }
-
-  main .fillHeight {
-    padding: 0px 0px;
-  }
-}
-
 h1 {
   color: var(--dark);
   font-size: 4rem;

@@ -4,9 +4,9 @@ import "../../styles/about.css";
 export default function About() {
   return (
     <section className="p-5" id="about">
-      <div className="row p-5 justify-content-center">
-        <div className="col-sm-7">
-          <div id="aboutContent" className="text-center">
+      <div className="p-lg-5 justify-content-center">
+        <div className="text-center">
+          <div id="aboutContent">
             <h2 className="statement-text pb-5">Hello, I'm Courtney!</h2>
             <p>
               I'm a passionate Physics Student turned Full-Stack Web Developer.
