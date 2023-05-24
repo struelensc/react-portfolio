@@ -1,10 +1,18 @@
 #skills {
-  scroll-snap-align: start;
-  min-height: 100vh;
+  margin-top: -14rem;
+}
+
+#skills .container {
+  background-color: #ffff;
+  max-width: 1200px;
+  border: 1px solid #ebebff;
+  border-radius: 12px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 4rem;
 }
 
 #skills h2 {
-  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 #skills ul {
@@ -13,20 +21,26 @@
 
 #skills li {
   font-size: 19px;
-  color: var(--lighter);
+  color: var(--secondaryAccent);
 }
 
 #skills li:hover {
-  color: var(--pink);
+  color: var(--mainAccent);
   transition: color 0.5s;
 }
 
-.vectorContainer img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 2em;
+@media (max-width: 768px) {
+  #skills {
+    padding: 2rem;
+  }
 }
 
-.vectorContainer {
-  max-height: 100%;
+@media (max-width: 426px) {
+  #skills {
+    margin-top: -10rem;
+  }
+
+  #skills .container {
+    padding: 4rem 2rem;
+  }
 }

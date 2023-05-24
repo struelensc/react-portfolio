@@ -1,5 +1,5 @@
 #works {
-  scroll-snap-align: start;
+  padding: 10rem 20rem;
 }
 
 .project {
@@ -7,17 +7,17 @@
 }
 
 .project-content .projectType {
-  color: var(--darkorange);
+  color: var(--tertiaryAccent);
   font-size: 15px;
   letter-spacing: 0.2em;
 }
 
 #works h2 {
-  font-size: 56px;
+  font-size: 4rem;
 }
 
 #works h4 {
-  color: var(--pink);
+  color: var(--secondaryAccent);
   font-size: 25px;
   letter-spacing: 0.2em;
 }
@@ -29,15 +29,19 @@
   margin-left: -25px;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
   .project-content {
     margin-left: 0px;
+  }
+
+  #works {
+    padding: 2rem 4rem;
   }
 }
 
 .project-content li {
   font-size: 16px;
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 .projectImage {
@@ -52,7 +56,11 @@
 
 .project-description {
   box-shadow: 0 10px 30px -15px #0c141d;
-  background-color: #121f2b;
+  background-color: var(--mainAccent);
+}
+
+.project-description p {
+  color: var(--lighter);
 }
 
 .project-content .icon {

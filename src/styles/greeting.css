@@ -1,0 +1,37 @@
+#greeting {
+  max-height: 100vh;
+}
+
+#greeting h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.profilePhotoContainer {
+  max-width: 250px;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.profilePhoto {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.vectorContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2em;
+}
+
+.vectorContainer {
+  max-height: 100%;
+}
+
+@media (max-width: 769px) {
+  #greeting h1 {
+    font-size: 3rem;
+  }
+}

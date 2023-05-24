@@ -73,8 +73,8 @@ function Work() {
   ];
 
   return (
-    <section className="p-5" id="works">
-      <h2 className="py-3">Some things I've worked on</h2>
+    <section id="works">
+      <h2 className="py-5 statement-text">Some things I've worked on</h2>
       <div>
         <div className="row">
           {projectInfo.map((data, i) => (

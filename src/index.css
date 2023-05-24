@@ -1,87 +1,77 @@
 /* General styling */
 
 :root {
-  --pink: #fec5bb;
-  --lighter: #fcf6f5;
-  --green: #d8e2dc;
-  --darkorange: #fec89a;
-  --dark: #172a3a;
+  --lighter: #ebebff;
+  --dark: #1c211e;
+  --mainAccent: #7209b7; /*pink*/
+  --secondaryAccent: #f72585; /*darkorange*/
+  --tertiaryAccent: #4cc9f0; /*green*/
 }
 
 html {
   font-size: 62.5%;
-  color: var(--lighter);
+  color: var(--dark);
   width: 100%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.6;
-  background-color: var(--dark);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  background-color: #ffff;
   font-size: 19px;
   position: absolute;
+}
+
+.statement-text {
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
   margin: 0 auto;
   min-height: 100vh;
-  padding: 0 150px;
 }
 
 main .fillHeight {
   padding: 0 150px;
 }
 
-@media (max-width: 1024px) {
-  main {
-    padding: 0px 10px;
-  }
-
-  main .fillHeight {
-    padding: 0px 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    padding: 0px 0px;
-  }
-
-  main .fillHeight {
-    padding: 0px 0px;
-  }
+section {
+  padding: 0 150px;
 }
 
 h1 {
-  letter-spacing: 1rem;
-  color: var(--lighter);
-  font-size: 70px;
+  color: var(--dark);
+  font-size: 4rem;
 }
 
 h2 {
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 p {
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 a {
   text-decoration: none;
-  color: var(--lighter);
+  color: var(--dark);
 }
 
 a:hover {
-  color: var(--pink);
+  color: var(--mainAccent);
   transition: color 0.5s;
 }
 
-.pink {
-  color: var(--pink);
+.mainAccent {
+  color: var(--mainAccent);
 }
 
-.orange {
-  color: var(--darkorange);
+.secondaryAccent {
+  color: var(--secondaryAccent);
+}
+
+.tertiaryAccent {
+  color: var(--tertiaryAccent);
 }
 
 li {

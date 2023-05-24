@@ -1,11 +1,45 @@
 .footer-extended {
-  border-top: var(--darkorange) 0.5rem solid;
+  background-color: var(--mainAccent);
 }
 
-footer div {
-  padding: 2rem;
+.footer-extended,
+footer .contactList a,
+footer h1 {
+  color: var(--lighter);
+}
+
+footer .one-liner {
+  font-size: 2rem;
+}
+
+footer .made-with {
+  font-size: 1.8rem;
 }
 
 .contactList img {
   padding-left: 0.5rem;
+}
+
+footer {
+  padding: 4rem 1.5rem 4rem;
+}
+
+footer .icon {
+  color: var(--secondaryAccent);
+}
+
+footer .contactList a span {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    padding: 4rem 1.5rem 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 3rem 1.5rem 4rem;
+  }
 }
