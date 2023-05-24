@@ -29,3 +29,9 @@
 .vectorContainer {
   max-height: 100%;
 }
+
+@media (max-width: 769px) {
+  #greeting h1 {
+    font-size: 3rem;
+  }
+}

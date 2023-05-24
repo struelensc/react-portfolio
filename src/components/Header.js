@@ -4,16 +4,18 @@ import resume from "../files/Resume.pdf";
 
 function Header() {
   return (
-    <nav className="navbar navbar-fixed-top px-5 justify-content-center justify-content-lg-between">
-      <h1 className="px-5 statement-text">
-        <span className="mainAccent">&lt; </span>
-        <span>courtney s</span>
-        <span className="mainAccent"> /&gt;</span>
-      </h1>
+    <nav>
+      <div className="header-wrapper navbar justify-content-center justify-content-lg-between">
+        <h1 className="statement-text">
+          <span className="mainAccent">&lt; </span>
+          <span>courtney s</span>
+          <span className="mainAccent"> /&gt;</span>
+        </h1>
 
-      <a href={resume} target="_blank">
-        resume
-      </a>
+        <a href={resume} className="statement-text" target="_blank">
+          resume
+        </a>
+      </div>
     </nav>
   );
 }
