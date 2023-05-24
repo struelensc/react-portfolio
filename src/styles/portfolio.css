@@ -29,13 +29,13 @@
   margin-left: -25px;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
   .project-content {
     margin-left: 0px;
   }
 
   #works {
-    padding: 2rem;
+    padding: 2rem 4rem;
   }
 }
 
