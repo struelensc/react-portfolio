@@ -16,9 +16,9 @@ export default function About() {
         <div className="profilePhotoContainer">
           <img className="profilePhoto" alt="Photo of Courtney" src={photo} />
         </div>
-        <div className="col-sm-5 vectorContainer">
+        {/* <div className="col-sm-5 vectorContainer">
           <img src={skillsPhoto} alt="female programmer" />
-        </div>
+        </div> */}
       </Container>
     </section>
   );

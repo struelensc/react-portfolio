@@ -2,6 +2,10 @@
   background-color: var(--mainAccent);
 }
 
+#aboutContent {
+  padding: 8rem 10rem 16rem 10rem;
+}
+
 #aboutContent h2,
 #aboutContent p {
   color: var(--lighter);
@@ -14,10 +18,6 @@
 #aboutContent p {
   font-size: 2rem;
   line-height: 40px;
-}
-
-.contactList img {
-  padding-left: 0.5rem;
 }
 
 @media (max-width: 1024px) {

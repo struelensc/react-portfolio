@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Skills() {
   return (
-    <section className="p-5" id="skills">
-      <div className="row d-flex flex-row-reverse align-items-center">
-        <div className="col-sm-7">
-          <h2 className="p-5">Some things I know</h2>
+    <section id="skills">
+      <div className="container d-flex justify-content-center align-items-center">
+        <div className="text-center">
+          <h2 className="pb-5 statement-text">Some things I know</h2>
 
-          <div className="px-5">
-            <ul className="list-group list-group-horizontal flex-wrap">
+          <div className="pt-3">
+            <ul className="list-group list-group-horizontal flex-wrap justify-content-center">
               <li className="text-center mx-4">
                 <FontAwesomeIcon icon="fa-brands fa-react" size="3x" />
                 <p>react</p>

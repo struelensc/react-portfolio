@@ -22,6 +22,10 @@ body {
   position: absolute;
 }
 
+.statement-text {
+  font-family: "Montserrat", sans-serif;
+}
+
 main {
   margin: 0 auto;
   min-height: 100vh;
@@ -92,8 +96,4 @@ a:hover {
 
 li {
   list-style: none;
-}
-
-.statement-text {
-  font-family: "Montserrat", sans-serif;
 }
