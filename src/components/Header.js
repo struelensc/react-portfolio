@@ -1,19 +1,24 @@
 import React from "react";
 import "../styles/header.css";
 import resume from "../files/Resume.pdf";
+import resumeIcon from "../assets/contact-icons/resume.png";
 
-function Header() {
+function Header({ isSmallScreen }) {
   return (
     <nav>
-      <div className="header-wrapper navbar justify-content-center justify-content-lg-between">
-        <h1 className="statement-text">
+      <div
+        className={`header-wrapper navbar justify-content-lg-between ${
+          isSmallScreen ? "justify-content-left" : ""
+        }`}
+      >
+        <h1 className={`statement-text`}>
           <span className="mainAccent">&lt; </span>
-          <span>courtney s</span>
+          <span>{isSmallScreen ? "cs" : "courtney s"}</span>
           <span className="mainAccent"> /&gt;</span>
         </h1>
 
-        <a href={resume} className="statement-text" target="_blank">
-          resume
+        <a className="icon" href={resume} target="_blank">
+          <img src={resumeIcon} alt="Resume icon" />
         </a>
       </div>
     </nav>
