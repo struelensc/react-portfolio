@@ -1,24 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../styles/header.css";
 import resume from "../files/Resume.pdf";
 import resumeIcon from "../assets/contact-icons/resume.png";
 
-function Header() {
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    function handleResize() {
-      setIsSmallScreen(window.innerWidth < 768);
-    }
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
+function Header({ isSmallScreen }) {
   return (
     <nav>
       <div
