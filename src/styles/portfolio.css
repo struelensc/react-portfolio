@@ -4,6 +4,16 @@
 
 .project {
   margin-bottom: 6rem;
+  position: relative;
+}
+
+.project:hover img {
+  transform: scale(1.02);
+  opacity: 0.3;
+}
+
+.project:hover h4 {
+  opacity: 1;
 }
 
 .project-content .projectType {
@@ -16,10 +26,19 @@
   font-size: 4rem;
 }
 
-#works h4 {
+.project h4 {
   color: var(--secondaryAccent);
-  font-size: 25px;
+  font-weight: bold;
+  font-size: 20px;
   letter-spacing: 0.2em;
+
+  transition: 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .project-content {
@@ -44,14 +63,14 @@
   color: var(--dark);
 }
 
-.projectImage {
-  z-index: 1;
-}
-
 .project img {
   max-width: 100%;
   height: auto;
   border-radius: 0.2em;
+
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .project-description {

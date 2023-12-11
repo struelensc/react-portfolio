@@ -4,10 +4,22 @@ import "../../styles/portfolio.css";
 import bens_diner from "../../assets/project-screenshots/bens_diner.png";
 import mvc_tech_blog from "../../assets/project-screenshots/mvc_tech_blog.png";
 import rental_railroad_homepage from "../../assets/project-screenshots/rental_railroad_homepage.png";
-import api_refactor from "../../assets/project-screenshots/api_refactor.png";
+import google_scripts from "../../assets/project-screenshots/google_scripts.png";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Work() {
   const projectInfo = [
+    {
+      name: "Google Sheets Scripts",
+      image: google_scripts,
+      description:
+        "This repository contains a collection of Google Apps Scripts that are designed to run on Google Sheets. These scripts provide automation and custom functionality for various tasks and workflows in our work environment.",
+      tech: ["JavaScript", "Google Apps Scripts"],
+      github: "https://github.com/struelensc/google-scripts",
+      type: "Solo",
+    },
     {
       name: "Rental Railroad",
       image: rental_railroad_homepage,
@@ -36,23 +48,6 @@ function Work() {
       type: "Solo",
     },
     {
-      name: "API Refactor",
-      image: api_refactor,
-      description:
-        "This solo project was to refactor a fully fuctioning Google Books API search engine built with a RESTful API to be a GraphQL API built with Apollo Server. This app was created using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.",
-      tech: [
-        "Node.js",
-        "Express.js",
-        "React",
-        "MongoDB",
-        "GraphQL",
-        "Apollo Server",
-      ],
-      github: "https://github.com/struelensc/book-search-api-refactor",
-      deployed: "https://book-search-api-refactor.herokuapp.com/",
-      type: "Solo",
-    },
-    {
       name: "Ben's Diner",
       image: bens_diner,
       description:
@@ -76,11 +71,22 @@ function Work() {
     <section id="works">
       <h2 className="py-5 statement-text">Some things I've worked on</h2>
       <div>
-        <div className="row">
-          {projectInfo.map((data, i) => (
+        <Row className="row">
+          {/* {projectInfo.map((data, i) => (
             <Project data={data} key={i}></Project>
+          ))} */}
+
+          {projectInfo.map((data, i) => (
+            <Col className="project" xs={6}>
+              <figure className="projectImage">
+                <a href={data.github}>
+                  <img src={data.image} alt={"Screenshot of project"} />
+                </a>
+              </figure>
+              <h4 className="mb-4">{data.name}</h4>
+            </Col>
           ))}
-        </div>
+        </Row>
       </div>
     </section>
   );
