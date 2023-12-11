@@ -27,7 +27,7 @@ This app uses:
 
 ## Appearance
 
-You can launch the deployed site [here](https://struelensc.github.io/react-portfolio/).
+You can launch the deployed site [here](https://www.courtneystruelens.com/).
 
 ![screenshot of portfolio](./portfolio.png)
 
