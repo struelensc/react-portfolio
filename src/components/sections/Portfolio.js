@@ -77,7 +77,7 @@ function Work() {
           ))} */}
 
           {projectInfo.map((data, i) => (
-            <Col className="project" xs={6}>
+            <Col className="project" sm={6}>
               <figure className="projectImage">
                 <a href={data.github}>
                   <img src={data.image} alt={"Screenshot of project"} />
