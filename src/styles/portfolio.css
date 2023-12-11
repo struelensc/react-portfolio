@@ -1,5 +1,5 @@
 #works {
-  padding: 0;
+  padding: 2rem 4rem;
   margin: 10rem auto;
   max-width: 1344px;
 }
@@ -52,16 +52,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     opacity: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-content {
-    margin-left: 0px;
-  }
-
-  #works {
-    padding: 2rem 4rem;
   }
 }
 
