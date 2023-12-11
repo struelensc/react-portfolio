@@ -1,5 +1,7 @@
 #works {
-  padding: 10rem 20rem;
+  padding: 0;
+  margin: 10rem auto;
+  max-width: 1344px;
 }
 
 .project {
