@@ -9,12 +9,13 @@ export default function About() {
           <div id="aboutContent">
             <h2 className="statement-text pb-5">Hello, I'm Courtney!</h2>
             <p>
-              I'm a passionate Physics Student turned Full-Stack Web Developer.
-              With a background in physics and a certification in Full Stack Web
-              Development from the University of Washington, I bring a unique
-              blend of scientific curiosity and technical expertise to my work.
-              Passionate about continuous learning and growth, I am driven to
-              create innovative solutions and embrace new challenges.
+              I'm a passionate Full-Stack Web Developer with an Associate in
+              Science in Physics. With a background in physics and a
+              certification in Full Stack Web Development from the University of
+              Washington, I bring a unique blend of scientific curiosity and
+              technical expertise to my work. Driven by a passion for continuous
+              learning and growth, I am dedicated to creating innovative
+              solutions and embracing new challenges.
             </p>
           </div>
         </div>
