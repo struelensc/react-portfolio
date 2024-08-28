@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/portfolio.css";
 import bens_diner from "../../assets/project-screenshots/bens_diner.png";
-import mvc_tech_blog from "../../assets/project-screenshots/mvc_tech_blog.png";
 import rental_railroad_homepage from "../../assets/project-screenshots/rental_railroad_homepage.png";
 import google_scripts from "../../assets/project-screenshots/google_scripts.png";
 import compliment_bot from "../../assets/project-screenshots/compliment_bot.png";
