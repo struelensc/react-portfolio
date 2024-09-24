@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/portfolio.css";
 import bens_diner from "../../assets/project-screenshots/bens_diner.png";
-import rental_railroad_homepage from "../../assets/project-screenshots/rental_railroad_homepage.png";
 import google_scripts from "../../assets/project-screenshots/google_scripts.png";
 import compliment_bot from "../../assets/project-screenshots/compliment_bot.png";
+import javascript_drum_set from "../../assets/project-screenshots/javascript_drum_set.png";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -29,21 +29,13 @@ function Work() {
       type: "Solo",
     },
     {
-      name: "Rental Railroad",
-      image: rental_railroad_homepage,
+      name: "JavaScript Drum Set",
+      image: javascript_drum_set,
       description:
-        "This group projects goal was to create a MERN stack single-page application that delivers a user-driven marketplace where users can rent out their items and rent items from others.",
-      tech: [
-        "React",
-        "GraphQL",
-        "Express.js",
-        "Node.js",
-        "MongoDB",
-        "Firebase",
-        "Stripe",
-      ],
-      github: "https://github.com/rkutsel/rental-railroad",
-      type: "Group",
+        "This project is a simple JavaScript Drum Set that allows users to play different drum sounds by pressing specific keys on their keyboard. Each key corresponds to a different sound, and a visual effect is applied when a sound is played.",
+      tech: ["JavaScript", "HTML5", "CSS3"],
+      github: "https://github.com/struelensc/javascript-drum-set",
+      type: "Solo",
     },
     {
       name: "Ben's Diner",
@@ -77,7 +69,7 @@ function Work() {
           {projectInfo.map((data, i) => (
             <Col className="project" sm={6}>
               <figure className="projectImage">
-                <a href={data.github}>
+                <a href={data.github} target="_blank">
                   <img src={data.image} alt={"Screenshot of project"} />
                 </a>
               </figure>
