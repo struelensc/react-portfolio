@@ -13,11 +13,11 @@ function Header({ isSmallScreen }) {
       >
         <h1 className={`statement-text`}>
           <span className="mainAccent">&lt; </span>
-          <span>{isSmallScreen ? "cs" : "courtney s"}</span>
+          <span>{isSmallScreen ? "CS" : "courtney s"}</span>
           <span className="mainAccent"> /&gt;</span>
         </h1>
 
-        <a className="icon" href={resume} target="_blank">
+        <a className="icon" href={resume} target="_blank" rel="noreferrer">
           <img src={resumeIcon} alt="Resume icon" />
         </a>
       </div>
